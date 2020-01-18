@@ -111,7 +111,7 @@ login(credentials, (err, api) => {
     // });
     // Listen for incoming messages and send schedule
     api.listenMqtt( async (err, message) => {
-        let response = await testing
+        // let response = await testing
         if (message.body) {
             if (message.body.includes("@Buckley Bot")) {
                 api.getUserInfo(message.senderID, (err, usr)=>{
