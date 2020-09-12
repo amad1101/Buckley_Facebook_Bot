@@ -24,7 +24,7 @@
     "express": "^4.17.1",
     "facebook-chat-api": "github:7osCraft/facebook-chat-api",
     "luxon": "^1.21.3",
-    "node-fetch": "^2.6.0",
+    "node-fetch": "^2.6.1",
     "request": "^2.88.0"
   }
 }
